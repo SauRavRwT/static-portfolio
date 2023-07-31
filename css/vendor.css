@@ -1,7 +1,4 @@
-/* 
- *  01. Core Owl Carousel CSS File
- *	 v1.3.3
- */
+/* Core Owl Carousel CSS File v1.3.3 */
 
 /* clearfix */
 .owl-carousel .owl-wrapper:after {
@@ -67,10 +64,8 @@
 	-ms-transform: translate3d(0, 0, 0);
 }
 
-/* 
- *  Owl Carousel CSS3 Transitions 
- *  v1.3.2
- */
+/*  Owl Carousel CSS3 Transitions  v1.3.2 */
+
 .owl-origin {
 	-webkit-perspective: 1200px;
 	-webkit-perspective-origin-x: 50%;
@@ -351,9 +346,8 @@
 }
 
 
-/* 
- *  02. Magnific Popup CSS
- */
+/* 02. Magnific Popup CSS */
+
 .mfp-bg {
 	top: 0;
 	left: 0;
@@ -675,9 +669,8 @@ img.mfp-img {
 }
 @media screen and (max-width:800px) and (orientation:landscape), screen and (max-height:300px) {
 
-	/**
-	     * Remove all paddings around the image on small screen
-	     */
+/* Remove all paddings around the image on small screen */
+
 	.mfp-img-mobile .mfp-image-holder {
 		padding-left: 0;
 		padding-right: 0;
@@ -762,5 +755,3 @@ img.mfp-img {
 	right: 0;
 	padding-top: 0;
 }
-
-/*# sourceMappingURL=vendor.css.map */

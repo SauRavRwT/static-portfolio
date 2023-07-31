@@ -826,7 +826,8 @@ header .logo img {
 /* intro  */
 
 #intro {
-    /* background: #151515 url(../images/intro-bg.jpg) no-repeat center bottom; */
+    background: #010101 url(https://images.unsplash.com/photo-1616004655123-818cbd4b3143?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80) no-repeat center bottom;
+    /* Developers: Turning creativity into code, imagination into reality, and complexity into simplicity, one line at a time." */
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -1361,7 +1362,6 @@ header .logo img {
 /* portfolio  */
 
 #portfolio {
-    /* background: #000; */
     padding-top: 3rem;
     padding-bottom: 3rem;
 }

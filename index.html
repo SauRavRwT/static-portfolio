@@ -44,10 +44,13 @@
                         <li><a class="smoothscroll" href="#about" title="About">About</a></li>
                         <li><a class="smoothscroll" href="#resume" title="Resume">Resume</a></li>
                         <li><a class="smoothscroll" href="#portfolio" title="Portfolio">Portfolio</a></li>
+                        <li><a class="smoothscroll" href="#contact" title="contact">Contact</a></li>
                 </nav>
             </div>
         </div>
     </header>
+    
+    <!-- intro section -->
     <section id="intro">
         <div class="intro-overlay"></div>
         <div class="intro-content">
@@ -62,7 +65,7 @@
                         </a>
                     </h1>
                     <p class="intro-position">
-                        <span>Front-end Developer</span>|<span>Android Enthusiast</span>
+                        <span>Web Developer</span>|<span>Android Enthusiast</span>
                     </p>
                     <a class="button stroke smoothscroll" href="#about" title="About me">More About Me
                     </a>
@@ -100,7 +103,7 @@
                 <div class="intro-info">
                     <img class="githubimg zoom" src="https://avatars.githubusercontent.com/u/90666710?v=4"
                         loading="eager" alt="Profile Picture">
-                    <p class="lead">I'm Front-End Developer and UI/UX Designer from Delhi, India working in web
+                    <p class="lead">I'm Web Developer and UI/UX Designer from Delhi, India working in web
                         development.
                         My job is to build your website so that it is functional and user-friendly but at the same time
                         attractive.
@@ -223,12 +226,12 @@
 
                         <div class="timeline-content">
                             <h4>Project-Xtended</h4>
-                            <p>Maintained Project-Xtended unofficially for Redmi note 11 pro+ 5g aka Veux.</p>
+                            <p>• Maintained Project-Xtended unofficially for Redmi note 11 pro+ 5g aka Veux.</p>
                         </div>
 
                     </div>
 
-                    <div class="timeline-block">
+                    <!-- <div class="timeline-block">
 
                         <div class="timeline-ico">
                             <i class="bi bi-card-text"></i>
@@ -241,13 +244,10 @@
 
                         <div class="timeline-content">
                             <h4>Skills</h4>
-                            <p>Done 3 months Internship from Tech Mahindra Foundation in Advanced IT, WPR & Soft Skills.
-                                Done 2 days workshop in Drone Technology by Elight SSPM in association IIITD-Innovation.
-                                Currently learning NextJS
-                            </p>
+                            <p> </p>
                         </div>
 
-                    </div>
+                    </div> -->
 
                 </div>
 
@@ -280,7 +280,9 @@
 
                         <div class="timeline-content">
                             <h4>Guru Teg Bahadur Institute of Technology</h4>
-                            <p>Done DSA from geeks for geeks. Learning Android Development.</p>
+                            <p>• Done DSA from geeks for geeks.</p>
+                            <p>• Learning Android Development.</p>
+                            <p>• Done Internship from CodeSoft.</p>
                         </div>
 
                     </div>
@@ -298,9 +300,14 @@
 
                         <div class="timeline-content">
                             <h4>Ambedkar Institute of Technology</h4>
-                            <p>Worked in e-shop website in minor project. Worked in Web Collections (Web App) in Major
+                            <p>• Worked in e-shop website in minor project. Worked in Web Collections (Web App) in Major
                                 Project.
                             </p>
+                            <p>• Done 3 months Internship from Tech Mahindra Foundation in Advanced IT, WPR & Soft
+                                Skills.
+                            </p>
+                            <p>• Done 2 days workshop in Drone Technology by Elight SSPM in association
+                                IIITD-Innovation./p>
                         </div>
 
                     </div>
@@ -568,6 +575,46 @@
 
     </section>
 
+    <!-- contact Section -->
+    <section id="contact">
+
+        <div class="row section-intro">
+            <div class="col-twelve">
+                <h5>Contact</h5>
+                <h1>I'd Love To Hear From You.</h1>
+                <p class="lead"> I love connecting with different people so if you want to say hi, I'll be happy to talk
+                    with you more! :)</p>
+
+            </div>
+        </div>
+        <div class="formbold-main-wrapper">
+            <div class="formbold-form-wrapper">
+                <form id="contactForm">
+                    <div class="formbold-mb-5">
+                        <label for="name" class="formbold-form-label">Full Name </label>
+                        <input type="text" name="name" id="name" type="text" placeholder="Full Name"
+                            class="formbold-form-input" />
+                    </div>
+
+                    <div class="formbold-mb-5">
+                        <label for="email" class="formbold-form-label">Email Address </label>
+                        <input type="email" name="email" id="emailid" type="email" placeholder="Enter your email"
+                            class="formbold-form-input" />
+                    </div>
+
+                    <div class="formbold-mb-5">
+                        <label for="message" class="formbold-form-label">Message </label>
+                        <textarea rows="6" name="message" id="msgContent" type="text" placeholder="Type your message"
+                            class="formbold-form-input"></textarea>
+                    </div>
+
+                    <div>
+                        <button class="button stroke" id="submitButton" type="submit">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
 
     <!-- footer -->
     <footer>
@@ -615,6 +662,7 @@
     </div>
 
     <!-- Java Script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
     <script src="./js/jquery-2.1.3.min.js"></script>
     <script src="./js/plugins.js"></script>
     <script src="./js/main.js"></script>
